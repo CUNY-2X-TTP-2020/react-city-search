@@ -30,7 +30,7 @@ export default class CityCard extends Component
 
         this.props.zipCodes.forEach(element =>
         {
-            listItems.push(<li>{element}</li>);
+            listItems.push(<li className="list-item">{element}</li>);
         });
 
         return listItems;

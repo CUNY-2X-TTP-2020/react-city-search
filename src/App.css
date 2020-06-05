@@ -89,3 +89,15 @@ input[type=text]:focus
 {
     margin: 2rem 0 5rem 0;
 }
+
+.list-item
+{
+    width: 100%;
+    transition: background-color 0.1s ease;
+}
+
+.list-item:hover
+{
+    cursor: pointer;
+    background-color: #2980b9;
+}
