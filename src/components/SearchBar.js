@@ -32,6 +32,7 @@ export default class SearchBar extends Component
                     <div>City</div>
                     <input type="text" name="searchbar" id="searchbar" placeholder={this.state.prevSearch} />
                 </form>
+                <CityFetcher city={this.state.prevSearch} />
             </section>
             :
             <section>

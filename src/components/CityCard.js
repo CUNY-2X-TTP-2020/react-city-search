@@ -18,7 +18,7 @@ export default class CityCard extends Component
             <section>
                 <h3>Zip Codes</h3>
                 <ul>
-                    {this.getZipCodes}
+                    {this.getZipCodes()}
                 </ul>
             </section>
         );
@@ -32,7 +32,7 @@ export default class CityCard extends Component
         {
             listItems.push(<li>{element}</li>);
         });
-        
+
         return listItems;
     }
 }
