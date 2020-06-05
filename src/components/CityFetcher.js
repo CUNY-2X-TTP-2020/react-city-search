@@ -63,7 +63,7 @@ export default class CityFetcher extends Component
     {
         return (
             this.state.isFound ?
-            <section>
+            <section className="city-card-grid">
                 <CityCard zipCodes={this.state.data} />
             </section>
             : <p>No results found</p>

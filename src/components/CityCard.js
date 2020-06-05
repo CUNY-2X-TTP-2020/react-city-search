@@ -15,9 +15,9 @@ export default class CityCard extends Component
     render()
     {
         return (
-            <section>
-                <h3>Zip Codes</h3>
-                <ul>
+            <section className="city-card">
+                <h3 className="city-card-title">Zip Codes</h3>
+                <ul className="city-card-details">
                     {this.getZipCodes()}
                 </ul>
             </section>

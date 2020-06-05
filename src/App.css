@@ -52,3 +52,40 @@ input[type=text]:focus
 {
     outline: none;
 }
+
+/* City Card */
+
+.city-card
+{
+    position: relative;
+    transition: box-shadow 0.6s;
+
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5);
+    border-radius: 25px;
+    transition: 0.3s;
+    padding: 2px 16px;
+    background-color: #1e3131;
+}
+
+.city-card:hover
+{
+    box-shadow: 0 16px 12px 0 rgba(0,0,0,0.5);
+}
+
+.city-card-title
+{
+    background-color: #1a548f;
+    border-radius: 10px;
+    padding: 0.75rem;
+}
+
+.city-card-details
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.city-card-grid
+{
+    margin: 2rem 0 5rem 0;
+}
