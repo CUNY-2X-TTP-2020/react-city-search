@@ -6,6 +6,10 @@ export default class CityCard extends Component
     constructor(props)
     {
         super(props);
+        this.state =
+        {
+            zipCodes: props.zipCodes
+        }
     }
 
     render()
@@ -16,5 +20,5 @@ export default class CityCard extends Component
 
 CityCard.propTypes =
 {
-    
+    zipCodes: PropTypes.array.isRequired
 }
