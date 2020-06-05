@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import CityFetcher from './CityFetcher';
+
 export default class SearchBar extends Component
 {
     constructor(props)
